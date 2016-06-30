@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#fffefe">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/baby"
+        android:weightSum="1"
+        android:baselineAligned="false">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Welcome To pregnancy App 99.99% sure"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="#880E4F"
+            android:shadowColor="#dc7c7c"
+            android:textSize="@dimen/abc_dialog_padding_material"
+            android:singleLine="false"
+            android:enabled="false"
+            android:layout_weight="0.54"
+            android:background="@drawable/preg"
+            android:textStyle="bold"
+            android:phoneNumber="false"
+            android:paddingTop="@dimen/abc_action_bar_overflow_padding_end_material" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Pregnancy Test"
+            android:id="@+id/pregnancyTest"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.18"
+            android:background="#bff48fb1"
+            android:textStyle="bold"
+            android:textColor="#4b2045" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pregnancy Tips"
+            android:id="@+id/pregnancyTips"
+            android:layout_weight="0.05"
+            android:background="#bff48fb1"
+            android:textStyle="bold"
+            android:textColor="#4b2045"
+            android:focusable="false"
+            android:elegantTextHeight="true" />
+
+        <Space
+            android:layout_width="382dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.05" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:id="@+id/about"
+            android:background="#bff48fb1"
+            android:textStyle="bold"
+            android:textColor="#4b2045"
+            android:layout_weight="0.04" />
+
+    </LinearLayout>
+</RelativeLayout>

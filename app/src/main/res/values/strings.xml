@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pregnancy app</string>
+    <string name="welcome">Please Enter Your Information</string>
+    <string name="last">Cycle :default(28)</string>
+    <string name="data">Last date (dd/mm/yyyy)</string>
+    <string name="submit">Submit</string>
+    <string name="result">Results</string>
+    <string name="action_settings">Menu</string>
+    <string name="abouttext">This App Was Developed By : </string>
+</resources>

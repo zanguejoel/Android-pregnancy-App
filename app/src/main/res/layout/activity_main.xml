@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.joeskinov.acer.pregnancyapp.MainActivity"
+    android:background="@drawable/preg"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:baselineAligned="false">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/welcome"
+        android:id="@+id/welcomeText"
+        android:textColor="#2c282c"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:background="#64fce4ec" />
+
+    <EditText
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/lastCycle"
+        android:layout_marginTop="35dp"
+        android:hint="@string/last"
+        android:textStyle="bold"
+        android:textColor="#9f36a1"
+        android:textColorHint="#cf39d7" />
+
+    <EditText
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/currentDate"
+        android:layout_marginTop="34dp"
+        android:hint="@string/data"
+        android:textStyle="bold"
+        android:textColor="#9f36a1"
+        android:textColorHint="#cf39d7" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:id="@+id/validateButton"
+        android:background="#2c282c"
+        android:layout_marginTop="83dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="329dp"
+        android:layout_height="97dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/result"
+        android:id="@+id/resultView"
+        android:layout_marginTop="59dp"
+        android:textAlignment="center"
+        android:textColor="#3360e6"
+        android:shadowColor="#0a050b"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:background="#81fce4ec" />
+
+</LinearLayout>
